@@ -1,6 +1,6 @@
 # 支付宝，微信扫码付<br> 
 ## 使用方法：<br> 
-//配置 alipay.properties  weixin.properties
+//配置 alipay.properties  weixin.properties<br>
 //创建订单  参数 订单编号 订单名称 订单金额  下单IP<br>
 Order order=new Order("1111111111","测试定单",new BigDecimal(0.01),"127.0.0.1");<br> 
 //支付宝支付<br>
